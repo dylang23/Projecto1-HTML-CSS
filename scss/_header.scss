@@ -1,0 +1,137 @@
+
+// Estilos para el Header
+.header{
+    display: flex;
+    background-color: #184C99;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    
+    &__brand{
+        margin-right: 2.5rem;
+        color: white;
+        font-style: normal;
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 2rem;
+        letter-spacing: 0.1px;
+    }
+    &__menu{
+        display: flex;
+        // background-color: black;
+        align-items: center;
+        flex: 1;
+        ul{
+            flex: 70;
+            // background-color: aqua;
+            display: flex;
+            color: white;
+            li{
+                text-align: center;
+                padding: 0.25rem 1rem;
+                font-size: 0.9rem;
+                font-weight: 700;
+                line-height: 1.5rem;
+                letter-spacing: 0.2px;
+            }
+        }
+        &__buttons{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 30;
+            gap: 1rem
+        }
+    }
+}
+
+// Estilos para el hero 
+.hero{
+    display: flex;
+    background-color: #184C99;
+    justify-content: center;
+    align-items: center;
+    .hero-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2.5rem;
+        padding: 1rem;
+        &__tag{
+            margin-top: 2.5rem;
+            color: #23A6F0;
+            font-weight: 700;
+            font-size: 1rem;
+            line-height: 1.5rem;
+            text-align: center;
+            letter-spacing: 0.1px;
+        }
+        &__headline{
+            width: 90%;
+            color: white;
+            text-align: center;
+            font-size: 3.6rem;
+            font-weight: 700;
+            line-height: 5rem;
+            letter-spacing: 0.2px;
+        }
+        &__description{
+            width: 60%;
+            color: white;
+            font-weight: 400;
+            font-size: 1.3rem;
+            letter-spacing: 0.2px;
+            text-align: center;
+        }
+        &__buttons{
+            display: flex;
+            gap: 0.625rem;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+// Estilos para los buttons
+.button-joinus{
+    width: 8rem;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    background: #23A6F0;
+    color: white;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: 0.2px;
+}
+
+.button-login{
+    padding: 1rem 1.5rem;
+    color: #23A6F0;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: 0.2px;
+}
+
+.button-learmore{
+    @extend .button-joinus;
+    width: 10rem;
+    background-color: #184C99;
+    border: 1px solid #23A6F0;
+}
+
+
+.separator{
+    width: 3rem;
+    height: 0.12rem;
+    background-color: #E74040;
+}
