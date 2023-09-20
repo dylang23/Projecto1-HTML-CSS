@@ -181,6 +181,42 @@ body {
   gap: 1rem;
 }
 
+.button-joinus, .button-learmore {
+  width: 8rem;
+  text-align: center;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  background: #23A6F0;
+  color: white;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: 0.2px;
+}
+
+.button-login {
+  padding: 1rem 1.5rem;
+  color: #23A6F0;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: 0.2px;
+}
+
+.button-learmore {
+  width: 10rem;
+  background-color: #184C99;
+  border: 1px solid #23A6F0;
+}
+
+.separator {
+  width: 3rem;
+  height: 0.12rem;
+  background-color: #E74040;
+}
+
 .hero {
   display: flex;
   background-color: #184C99;
@@ -226,40 +262,4 @@ body {
   gap: 0.625rem;
   justify-content: center;
   align-items: center;
-}
-
-.button-joinus, .button-learmore {
-  width: 8rem;
-  text-align: center;
-  padding: 1rem 1.5rem;
-  border-radius: 5px;
-  background: #23A6F0;
-  color: white;
-  font-size: 0.875rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 2rem;
-  letter-spacing: 0.2px;
-}
-
-.button-login {
-  padding: 1rem 1.5rem;
-  color: #23A6F0;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 2rem;
-  letter-spacing: 0.2px;
-}
-
-.button-learmore {
-  width: 10rem;
-  background-color: #184C99;
-  border: 1px solid #23A6F0;
-}
-
-.separator {
-  width: 3rem;
-  height: 0.12rem;
-  background-color: #E74040;
 }/*# sourceMappingURL=index.css.map */
