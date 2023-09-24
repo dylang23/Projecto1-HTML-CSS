@@ -1,0 +1,52 @@
+.container-newsletter {
+    padding: 10rem 12.1875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+    .newsletter {
+        width: 43rem;
+
+        .form {
+            max-width: 100%;
+            display: flex;
+            justify-content: space-between;
+            border-radius: 0.3125rem;
+            border: 1px solid #E6E6E6;
+            background: #F9F9F9;
+
+            .inputemail {
+                padding-left: 1rem;
+                flex: 80%;
+                border-radius: 0.3125rem;
+                border: 1px solid #E6E6E6;
+                background: #F9F9F9;
+                color: #737373;
+                font-size: 0.875rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.75rem;
+                /* 200% */
+                letter-spacing: 0.0125rem;
+            }
+
+            .button-subscribe {
+                flex: 20%;
+                border-radius: 0rem 0.3125rem 0.3125rem 0rem;
+                border: 1px solid #E6E6E6;
+                background: #23A6F0;
+                padding: 0.9375rem 1.40625rem;
+                color: #FFF;
+                text-align: center;
+                font-size: 0.875rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.75rem;
+                /* 200% */
+                letter-spacing: 0.0125rem;
+            }
+        }
+    }
+}
